@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .hidden {
@@ -111,4 +111,22 @@ body {
 .time-up div:nth-child(2) {
   font-size: 3.2rem;
   color: #a29bfe;
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 45%;
+  }
+  .activity-tab {
+    padding-inline: 2.4rem;
+  }
+}
+
+@media (max-width: 27em) {
+  html {
+    font-size: 40%;
+  }
+  .bubble {
+    padding: 2rem 2.6rem;
+  }
 }
