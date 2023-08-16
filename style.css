@@ -90,7 +90,7 @@ body {
 
 .bubble:active {
   background-color: #7d74fc;
-  transform: translateY(1px);
+  transform: translateY(2.5px);
   box-shadow: 1.5px 1.5px 8px 3px rgb(119, 119, 119, 0.4);
 }
 
