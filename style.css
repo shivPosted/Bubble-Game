@@ -59,9 +59,10 @@ body {
 .activity-tab div > span {
   margin-left: 2rem;
   background-color: #fff;
-  color: #7d74fc;
+  color: #a29bfe;
   padding: 0.5rem 1.5rem;
   font-size: 3.6rem;
+  border-radius: 2rem;
   /* border-radius: 5px; */
 }
 
